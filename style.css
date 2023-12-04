@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --height: 1em;
+    --width: 500px;
+    --progress-color: rgba(0, 0, 0);
+    --progress-bar-color: rgba(0, 0, 0, 0.3);
+    --br: 2em;
+}
+
+#progress-bar {
+    width: 500px;
+    height: var(--height);
+    border-radius: var(--br);
+    background-color: var(--progress-bar-color);
+}
+
+#progress {
+    width: 50%;
+    background-color: var(--progress-color);
+    height: inherit;
+    border-radius: inherit;
+}
